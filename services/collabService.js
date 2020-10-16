@@ -8,41 +8,32 @@ collabService.getRecommends = function(basket, unsub) {
     let recommend = {};
     basket = [...(new Set(basket))];
 
-   // console.log('\n\nbasket:');
-    //console.log(basket);
     basket.forEach(teaFromBasket => {
         let i = 0;
         groups.forEach(group => {
             ++i;
-            group[i].forEach(teaFromGroup => {
-                if (teaFromBasket === teaFromGroup) {
-                    group[i] = removeDoubles(group[i], basket);
-                    if (!recommend.hasOwnProperty(teaFromBasket)) {
-                        recommend[teaFromBasket] = getMarkedArray(group[i], i);
-                    } else {
-                        recommend[teaFromBasket] = recommend[teaFromBasket].concat(getMarkedArray(group[i], i));
+            if (unsub.indexOf(i) == -1) {
+                group[i].forEach(teaFromGroup => {
+                    if (teaFromBasket === teaFromGroup) {
+                        group[i] = removeDoubles(group[i], basket);
+                        if (!recommend.hasOwnProperty(teaFromBasket)) {
+                            recommend[teaFromBasket] = getMarkedArray(group[i], i);
+                        } else {
+                            recommend[teaFromBasket] = recommend[teaFromBasket].concat(getMarkedArray(group[i], i));
+                        }
                     }
-                }
-            })
+                })
+            }
         })
     });
 
-   // console.log('recommended with doubles markered:');
-   // console.log(recommend);
-
     let recommendList = getRecommendList(recommend);
-    //console.log('recommend list:');
 
     for(let i = 0; i < recommendList.length; ++i) {
         if (basket.indexOf(recommendList[i].name) != -1) {
             recommendList.splice(i, 1);
         }
     }
-    //console.log(recommendList);
-
-    //console.log('recommended teas:');
-    //console.log(getTeaList(recommendList));
-
     return getTeaList(recommendList);
 }
 
@@ -63,13 +54,14 @@ const getTeaList = function(recommendList) {
             let teaObject = {};
             for(key in uniqTeas) {
                 if (key === tea.props.name) {
+                    
                     teaObject = tea.props;
                     teaObject.group = uniqTeas[key];
                     teaRecList.push(teaObject);
                 }
             }
         })
-    })
+    });
     return teaRecList; 
 }
 
