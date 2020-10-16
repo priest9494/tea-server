@@ -2,14 +2,14 @@ const fs = require('fs');
 
 let collabService = {};
 
-collabService.getRecommends = function(basket) {
+collabService.getRecommends = function(basket, unsub) {
     data = fs.readFileSync('groups.json');
     let groups = JSON.parse(data);
     let recommend = {};
     basket = [...(new Set(basket))];
 
-    console.log('\n\nbasket:');
-    console.log(basket);
+   // console.log('\n\nbasket:');
+    //console.log(basket);
     basket.forEach(teaFromBasket => {
         let i = 0;
         groups.forEach(group => {
@@ -27,21 +27,21 @@ collabService.getRecommends = function(basket) {
         })
     });
 
-    console.log('recommended with doubles markered:');
-    console.log(recommend);
+   // console.log('recommended with doubles markered:');
+   // console.log(recommend);
 
     let recommendList = getRecommendList(recommend);
-    console.log('recommend list:');
+    //console.log('recommend list:');
 
     for(let i = 0; i < recommendList.length; ++i) {
         if (basket.indexOf(recommendList[i].name) != -1) {
             recommendList.splice(i, 1);
         }
     }
-    console.log(recommendList);
+    //console.log(recommendList);
 
-    console.log('recommended teas:');
-    console.log(getTeaList(recommendList));
+    //console.log('recommended teas:');
+    //console.log(getTeaList(recommendList));
 
     return getTeaList(recommendList);
 }

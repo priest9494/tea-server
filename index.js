@@ -7,8 +7,10 @@ const port = process.env.port || 3030;
 const teaTree = require('./routes/teaTree');
 const collab = require('./routes/collaborativeFiltering');
 
-
-app.use(cors());
+app.use(cors({
+  preflightContinue: true,
+  credentials: true,
+}));
 app.use('/', teaTree);
 app.use('/', collab);
 

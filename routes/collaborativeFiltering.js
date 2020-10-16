@@ -7,7 +7,9 @@ const jsonParser = bodyParser.json();
 const collabService = require('../services/collabService');
 
 router.post('/collab', jsonParser, async (req, res) => {
-	res.send(collabService.getRecommends(req.body.basket)).status(200);
+	//console.log('Cookies: ', req.cookies)
+	let unsub = [...(new Set(req.body.groups))]
+	res.send(collabService.getRecommends(req.body.basket, unsub)).status(200);
 });
 
 module.exports = router;
