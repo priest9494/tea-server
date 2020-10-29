@@ -1,4 +1,5 @@
 const fs = require('fs');
+const formulas = require('./aprioriFormulas');
 
 // Baskets array
 let preDS = JSON.parse(fs.readFileSync('baskets.json'));
@@ -9,35 +10,6 @@ preDS.forEach(line => {
     ++i;
     ds.push(line[i]);
 });
-
-const supp = function(A) {
-    let cnt = 0;
-    ds.forEach(line => {
-        if (existsSubArr(line, A)) {
-            cnt++;
-        }
-    });
-
-    return cnt / ds.length;
-}
-
-const existsSubArr = function(A, B) {
-    // A - main array
-    // B - sub array
-    if (B.length > A.length) {
-        return 0;
-    }
-    
-    let isExists = true;
-    B.forEach(elemB => {
-        if (A.indexOf(elemB) === -1) {
-            isExists = false;
-            return -1;
-        }
-    });
-
-    return isExists;
-}
 
 const getUniqCandidates = function(arr) {
     let res = [];
@@ -91,7 +63,7 @@ const getCandidates = function(threshold) {
     let haveNewCandidate = false;
     // Выбираем подходящих по supp кандидатов
     uniqCandidates.forEach(candidate => {
-        if(supp(candidate) > threshold) {
+        if(formulas.supp(candidate) > threshold) {
             result.push(candidate);
             prevCandidates.push(candidate);
             haveNewCandidate = true;
@@ -107,7 +79,7 @@ const getCandidates = function(threshold) {
         prevCandidates = [];
         // Выбираем подходящих по supp кандидатов
         tmp.forEach(candidate => {
-            if(supp(candidate) > threshold) {
+            if(formulas.supp(candidate) > threshold) {
                 result.push(candidate);
                 prevCandidates.push(candidate);
                 haveNewCandidate = true;
