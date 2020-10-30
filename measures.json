@@ -6,12 +6,6 @@
   "treeProx": 1
 },{
   "first": "Фэнцин",
-  "second": "Дали",
-  "euclid": 0.394,
-  "diffs": 2,
-  "treeProx": 2
-},{
-  "first": "Фэнцин",
   "second": "Тенчун",
   "euclid": 0.324,
   "diffs": 1,
@@ -99,12 +93,6 @@
   "second": "Таньян Гунфу",
   "euclid": 0.306,
   "diffs": 3,
-  "treeProx": 4
-},{
-  "first": "Фэнцин",
-  "second": "Фэн Хуан Дань Цун",
-  "euclid": 0.539,
-  "diffs": 2,
   "treeProx": 4
 },{
   "first": "Фэнцин",
@@ -372,12 +360,6 @@
   "treeProx": 5
 },{
   "first": "Мэнку",
-  "second": "Дали",
-  "euclid": 0.588,
-  "diffs": 3,
-  "treeProx": 2
-},{
-  "first": "Мэнку",
   "second": "Тенчун",
   "euclid": 1.061,
   "diffs": 2,
@@ -464,12 +446,6 @@
   "first": "Мэнку",
   "second": "Таньян Гунфу",
   "euclid": 0.607,
-  "diffs": 4,
-  "treeProx": 4
-},{
-  "first": "Мэнку",
-  "second": "Фэн Хуан Дань Цун",
-  "euclid": 1.074,
   "diffs": 4,
   "treeProx": 4
 },{
@@ -737,366 +713,6 @@
   "diffs": 5,
   "treeProx": 5
 },{
-  "first": "Дали",
-  "second": "Тенчун",
-  "euclid": 0.693,
-  "diffs": 1,
-  "treeProx": 1
-},{
-  "first": "Дали",
-  "second": "Булан",
-  "euclid": 0.777,
-  "diffs": 4,
-  "treeProx": 3
-},{
-  "first": "Дали",
-  "second": "ГуанНань",
-  "euclid": 0.535,
-  "diffs": 3,
-  "treeProx": 3
-},{
-  "first": "Дали",
-  "second": "ДаЛи",
-  "euclid": 0.533,
-  "diffs": 1,
-  "treeProx": 3
-},{
-  "first": "Дали",
-  "second": "ГуанСи",
-  "euclid": 0.776,
-  "diffs": 3,
-  "treeProx": 3
-},{
-  "first": "Дали",
-  "second": "ТеГуань",
-  "euclid": 1.159,
-  "diffs": 5,
-  "treeProx": 4
-},{
-  "first": "Дали",
-  "second": "Алишань",
-  "euclid": 0.289,
-  "diffs": 4,
-  "treeProx": 4
-},{
-  "first": "Дали",
-  "second": "Фэн Хуан Дань Цун",
-  "euclid": 0.422,
-  "diffs": 3,
-  "treeProx": 4
-},{
-  "first": "Дали",
-  "second": "БаоДжун",
-  "euclid": 0.05,
-  "diffs": 2,
-  "treeProx": 4
-},{
-  "first": "Дали",
-  "second": "Да Хун Пао",
-  "euclid": 0.693,
-  "diffs": 3,
-  "treeProx": 4
-},{
-  "first": "Дали",
-  "second": "БайХао",
-  "euclid": 1.019,
-  "diffs": 3,
-  "treeProx": 4
-},{
-  "first": "Дали",
-  "second": "Пэнфен",
-  "euclid": 0.421,
-  "diffs": 4,
-  "treeProx": 4
-},{
-  "first": "Дали",
-  "second": "Дун Дин",
-  "euclid": 1.169,
-  "diffs": 5,
-  "treeProx": 4
-},{
-  "first": "Дали",
-  "second": "Дянь Хун",
-  "euclid": 0.283,
-  "diffs": 3,
-  "treeProx": 4
-},{
-  "first": "Дали",
-  "second": "Таньян Гунфу",
-  "euclid": 0.089,
-  "diffs": 2,
-  "treeProx": 4
-},{
-  "first": "Дали",
-  "second": "Фэн Хуан Дань Цун",
-  "euclid": 0.73,
-  "diffs": 4,
-  "treeProx": 4
-},{
-  "first": "Дали",
-  "second": "Цзинь Цзюнь Мэй",
-  "euclid": 0.622,
-  "diffs": 4,
-  "treeProx": 4
-},{
-  "first": "Дали",
-  "second": "Ци хун",
-  "euclid": 1.053,
-  "diffs": 4,
-  "treeProx": 4
-},{
-  "first": "Дали",
-  "second": "Чжэнь Шань Сяо Чжун",
-  "euclid": 1.216,
-  "diffs": 5,
-  "treeProx": 4
-},{
-  "first": "Дали",
-  "second": "Дянь Хун Сун Чжень",
-  "euclid": 0.768,
-  "diffs": 4,
-  "treeProx": 4
-},{
-  "first": "Дали",
-  "second": "Уишань Хун Ча",
-  "euclid": 0.798,
-  "diffs": 4,
-  "treeProx": 4
-},{
-  "first": "Дали",
-  "second": "Чжанпин Хун Ча",
-  "euclid": 1.204,
-  "diffs": 4,
-  "treeProx": 4
-},{
-  "first": "Дали",
-  "second": "Моли Хуа Хун Ча",
-  "euclid": 0.5,
-  "diffs": 2,
-  "treeProx": 4
-},{
-  "first": "Дали",
-  "second": "Тесс",
-  "euclid": 1.452,
-  "diffs": 5,
-  "treeProx": 4
-},{
-  "first": "Дали",
-  "second": "Ява",
-  "euclid": 1.452,
-  "diffs": 5,
-  "treeProx": 4
-},{
-  "first": "Дали",
-  "second": "Жичжао Люй Ча",
-  "euclid": 1.187,
-  "diffs": 6,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Мэндин Шань Мао Фэн",
-  "euclid": 1.48,
-  "diffs": 5,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Люань Гуапянь",
-  "euclid": 1.28,
-  "diffs": 6,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Лун Цзин",
-  "euclid": 1.461,
-  "diffs": 5,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Да Фо",
-  "euclid": 1.015,
-  "diffs": 3,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Синьян Мао Цзян",
-  "euclid": 0.645,
-  "diffs": 4,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Лю Хуа",
-  "euclid": 1.23,
-  "diffs": 5,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Хуаншань Мао Фэн",
-  "euclid": 1.149,
-  "diffs": 5,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Тайпин",
-  "euclid": 1.119,
-  "diffs": 4,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Хоу Куй",
-  "euclid": 1.341,
-  "diffs": 6,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Лун Чжу",
-  "euclid": 0.538,
-  "diffs": 3,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Дунтин",
-  "euclid": 0.633,
-  "diffs": 4,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Билочунь",
-  "euclid": 1.155,
-  "diffs": 5,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Гэммайтя",
-  "euclid": 1.374,
-  "diffs": 5,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Аньцзи",
-  "euclid": 1.235,
-  "diffs": 5,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Бай Ча",
-  "euclid": 1.16,
-  "diffs": 5,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Моли Йнь",
-  "euclid": 0.71,
-  "diffs": 4,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Йинь Чжень",
-  "euclid": 0.835,
-  "diffs": 4,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Мао Фэн Люй Ча",
-  "euclid": 1.198,
-  "diffs": 6,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Лун Цзин из деревни Лонг Ву",
-  "euclid": 1.538,
-  "diffs": 6,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Жасмин",
-  "euclid": 1.414,
-  "diffs": 4,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Моли Хуа Хун Ча «Жасминовый чай»",
-  "euclid": 1.425,
-  "diffs": 4,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Лун Цзин «Колодец Дракона» с озера Сиху",
-  "euclid": 0.776,
-  "diffs": 5,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Зелёный чай с горы Лаошань",
-  "euclid": 1.084,
-  "diffs": 5,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Би Ло Чунь",
-  "euclid": 1.218,
-  "diffs": 5,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Лунцзин Колодец дракона",
-  "euclid": 1.218,
-  "diffs": 5,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Бай Мао Хоу",
-  "euclid": 1.193,
-  "diffs": 6,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Сян Чжень",
-  "euclid": 1.232,
-  "diffs": 6,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Шу Сян Люй",
-  "euclid": 0.651,
-  "diffs": 5,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Тай Пин Хоу Куй",
-  "euclid": 0.637,
-  "diffs": 4,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Люй Лун Чжу",
-  "euclid": 1.205,
-  "diffs": 4,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Йин Сы",
-  "euclid": 1.265,
-  "diffs": 5,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Шен Мэнку Мао Ча",
-  "euclid": 1.153,
-  "diffs": 4,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Ганпаудер Порох",
-  "euclid": 1.452,
-  "diffs": 4,
-  "treeProx": 5
-},{
-  "first": "Дали",
-  "second": "Завтрак императора",
-  "euclid": 1.049,
-  "diffs": 3,
-  "treeProx": 5
-},{
   "first": "Тенчун",
   "second": "Булан",
   "euclid": 1.059,
@@ -1178,12 +794,6 @@
   "first": "Тенчун",
   "second": "Таньян Гунфу",
   "euclid": 0.607,
-  "diffs": 3,
-  "treeProx": 4
-},{
-  "first": "Тенчун",
-  "second": "Фэн Хуан Дань Цун",
-  "euclid": 0.527,
   "diffs": 3,
   "treeProx": 4
 },{
@@ -1530,12 +1140,6 @@
   "treeProx": 4
 },{
   "first": "Булан",
-  "second": "Фэн Хуан Дань Цун",
-  "euclid": 0.845,
-  "diffs": 3,
-  "treeProx": 4
-},{
-  "first": "Булан",
   "second": "Цзинь Цзюнь Мэй",
   "euclid": 0.374,
   "diffs": 3,
@@ -1872,12 +1476,6 @@
   "treeProx": 4
 },{
   "first": "ГуанНань",
-  "second": "Фэн Хуан Дань Цун",
-  "euclid": 0.417,
-  "diffs": 2,
-  "treeProx": 4
-},{
-  "first": "ГуанНань",
   "second": "Цзинь Цзюнь Мэй",
   "euclid": 0.417,
   "diffs": 3,
@@ -2208,12 +1806,6 @@
   "treeProx": 4
 },{
   "first": "ДаЛи",
-  "second": "Фэн Хуан Дань Цун",
-  "euclid": 0.672,
-  "diffs": 4,
-  "treeProx": 4
-},{
-  "first": "ДаЛи",
   "second": "Цзинь Цзюнь Мэй",
   "euclid": 0.186,
   "diffs": 2,
@@ -2538,12 +2130,6 @@
   "treeProx": 4
 },{
   "first": "ГуанСи",
-  "second": "Фэн Хуан Дань Цун",
-  "euclid": 0.967,
-  "diffs": 4,
-  "treeProx": 4
-},{
-  "first": "ГуанСи",
   "second": "Цзинь Цзюнь Мэй",
   "euclid": 0.256,
   "diffs": 4,
@@ -2862,12 +2448,6 @@
   "treeProx": 4
 },{
   "first": "ТеГуань",
-  "second": "Фэн Хуан Дань Цун",
-  "euclid": 1.418,
-  "diffs": 6,
-  "treeProx": 4
-},{
-  "first": "ТеГуань",
   "second": "Цзинь Цзюнь Мэй",
   "euclid": 1.167,
   "diffs": 6,
@@ -3180,12 +2760,6 @@
   "treeProx": 4
 },{
   "first": "Алишань",
-  "second": "Фэн Хуан Дань Цун",
-  "euclid": 0.744,
-  "diffs": 4,
-  "treeProx": 4
-},{
-  "first": "Алишань",
   "second": "Цзинь Цзюнь Мэй",
   "euclid": 0.592,
   "diffs": 4,
@@ -3492,12 +3066,6 @@
   "treeProx": 4
 },{
   "first": "Фэн Хуан Дань Цун",
-  "second": "Фэн Хуан Дань Цун",
-  "euclid": 0.534,
-  "diffs": 3,
-  "treeProx": 4
-},{
-  "first": "Фэн Хуан Дань Цун",
   "second": "Цзинь Цзюнь Мэй",
   "euclid": 0.837,
   "diffs": 5,
@@ -3798,12 +3366,6 @@
   "treeProx": 4
 },{
   "first": "БаоДжун",
-  "second": "Фэн Хуан Дань Цун",
-  "euclid": 0.766,
-  "diffs": 4,
-  "treeProx": 4
-},{
-  "first": "БаоДжун",
   "second": "Цзинь Цзюнь Мэй",
   "euclid": 0.611,
   "diffs": 4,
@@ -4098,12 +3660,6 @@
   "treeProx": 4
 },{
   "first": "Да Хун Пао",
-  "second": "Фэн Хуан Дань Цун",
-  "euclid": 0.527,
-  "diffs": 3,
-  "treeProx": 4
-},{
-  "first": "Да Хун Пао",
   "second": "Цзинь Цзюнь Мэй",
   "euclid": 1.093,
   "diffs": 5,
@@ -4392,12 +3948,6 @@
   "treeProx": 4
 },{
   "first": "БайХао",
-  "second": "Фэн Хуан Дань Цун",
-  "euclid": 1.187,
-  "diffs": 5,
-  "treeProx": 4
-},{
-  "first": "БайХао",
   "second": "Цзинь Цзюнь Мэй",
   "euclid": 1.253,
   "diffs": 5,
@@ -4680,12 +4230,6 @@
   "treeProx": 4
 },{
   "first": "Пэнфен",
-  "second": "Фэн Хуан Дань Цун",
-  "euclid": 0.888,
-  "diffs": 4,
-  "treeProx": 4
-},{
-  "first": "Пэнфен",
   "second": "Цзинь Цзюнь Мэй",
   "euclid": 0.553,
   "diffs": 4,
@@ -4962,12 +4506,6 @@
   "treeProx": 4
 },{
   "first": "Дун Дин",
-  "second": "Фэн Хуан Дань Цун",
-  "euclid": 1.502,
-  "diffs": 5,
-  "treeProx": 4
-},{
-  "first": "Дун Дин",
   "second": "Цзинь Цзюнь Мэй",
   "euclid": 1.146,
   "diffs": 6,
@@ -5238,12 +4776,6 @@
   "treeProx": 1
 },{
   "first": "Дянь Хун",
-  "second": "Фэн Хуан Дань Цун",
-  "euclid": 0.572,
-  "diffs": 2,
-  "treeProx": 2
-},{
-  "first": "Дянь Хун",
   "second": "Цзинь Цзюнь Мэй",
   "euclid": 0.747,
   "diffs": 4,
@@ -5508,12 +5040,6 @@
   "treeProx": 5
 },{
   "first": "Таньян Гунфу",
-  "second": "Фэн Хуан Дань Цун",
-  "euclid": 0.672,
-  "diffs": 3,
-  "treeProx": 2
-},{
-  "first": "Таньян Гунфу",
   "second": "Цзинь Цзюнь Мэй",
   "euclid": 0.651,
   "diffs": 3,
@@ -5774,270 +5300,6 @@
   "first": "Таньян Гунфу",
   "second": "Завтрак императора",
   "euclid": 1.079,
-  "diffs": 4,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Цзинь Цзюнь Мэй",
-  "euclid": 0.833,
-  "diffs": 2,
-  "treeProx": 1
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Ци хун",
-  "euclid": 0.972,
-  "diffs": 3,
-  "treeProx": 2
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Чжэнь Шань Сяо Чжун",
-  "euclid": 0.526,
-  "diffs": 1,
-  "treeProx": 2
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Дянь Хун Сун Чжень",
-  "euclid": 0.901,
-  "diffs": 3,
-  "treeProx": 3
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Уишань Хун Ча",
-  "euclid": 1.041,
-  "diffs": 3,
-  "treeProx": 3
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Чжанпин Хун Ча",
-  "euclid": 1.336,
-  "diffs": 4,
-  "treeProx": 3
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Моли Хуа Хун Ча",
-  "euclid": 0.527,
-  "diffs": 2,
-  "treeProx": 3
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Тесс",
-  "euclid": 1.404,
-  "diffs": 3,
-  "treeProx": 3
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Ява",
-  "euclid": 1.404,
-  "diffs": 3,
-  "treeProx": 3
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Жичжао Люй Ча",
-  "euclid": 1.101,
-  "diffs": 4,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Мэндин Шань Мао Фэн",
-  "euclid": 1.414,
-  "diffs": 5,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Люань Гуапянь",
-  "euclid": 1.444,
-  "diffs": 4,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Лун Цзин",
-  "euclid": 1.139,
-  "diffs": 3,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Да Фо",
-  "euclid": 0.818,
-  "diffs": 4,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Синьян Мао Цзян",
-  "euclid": 0.859,
-  "diffs": 3,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Лю Хуа",
-  "euclid": 1.003,
-  "diffs": 3,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Хуаншань Мао Фэн",
-  "euclid": 1.259,
-  "diffs": 5,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Тайпин",
-  "euclid": 1.156,
-  "diffs": 4,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Хоу Куй",
-  "euclid": 1.512,
-  "diffs": 5,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Лун Чжу",
-  "euclid": 0.611,
-  "diffs": 3,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Дунтин",
-  "euclid": 0.865,
-  "diffs": 4,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Билочунь",
-  "euclid": 1.142,
-  "diffs": 4,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Гэммайтя",
-  "euclid": 1.564,
-  "diffs": 5,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Аньцзи",
-  "euclid": 1.374,
-  "diffs": 5,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Бай Ча",
-  "euclid": 1.104,
-  "diffs": 4,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Моли Йнь",
-  "euclid": 0.624,
-  "diffs": 4,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Йинь Чжень",
-  "euclid": 1.002,
-  "diffs": 4,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Мао Фэн Люй Ча",
-  "euclid": 1.309,
-  "diffs": 4,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Лун Цзин из деревни Лонг Ву",
-  "euclid": 1.502,
-  "diffs": 4,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Жасмин",
-  "euclid": 1.236,
-  "diffs": 4,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Моли Хуа Хун Ча «Жасминовый чай»",
-  "euclid": 1.248,
-  "diffs": 4,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Лун Цзин «Колодец Дракона» с озера Сиху",
-  "euclid": 0.589,
-  "diffs": 3,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Зелёный чай с горы Лаошань",
-  "euclid": 0.902,
-  "diffs": 3,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Би Ло Чунь",
-  "euclid": 1.379,
-  "diffs": 5,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Лунцзин Колодец дракона",
-  "euclid": 1.379,
-  "diffs": 5,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Бай Мао Хоу",
-  "euclid": 1.261,
-  "diffs": 4,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Сян Чжень",
-  "euclid": 1.124,
-  "diffs": 5,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Шу Сян Люй",
-  "euclid": 0.768,
-  "diffs": 3,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Тай Пин Хоу Куй",
-  "euclid": 0.2,
-  "diffs": 2,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Люй Лун Чжу",
-  "euclid": 1.015,
-  "diffs": 3,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Йин Сы",
-  "euclid": 1.391,
-  "diffs": 5,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Шен Мэнку Мао Ча",
-  "euclid": 1.038,
-  "diffs": 3,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Ганпаудер Порох",
-  "euclid": 1.404,
-  "diffs": 5,
-  "treeProx": 5
-},{
-  "first": "Фэн Хуан Дань Цун",
-  "second": "Завтрак императора",
-  "euclid": 0.977,
   "diffs": 4,
   "treeProx": 5
 },{

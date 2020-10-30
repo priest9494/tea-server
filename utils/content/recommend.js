@@ -1,17 +1,18 @@
 const fs = require('fs');
 
 const getRecommend = function(basket) {
+    if (basket.length === 0) {
+        return [];
+    }
+
     let measures = JSON.parse(fs.readFileSync('measures.json'));
 
-    let euqlidCandidates = [];
-    let diffsCandidates = [];
-    let treeCandidates = [];
     let candidates = [];
-
     measures.forEach(pair => {
-        let measure = pair.euclid / 2 + (1 - pair.diffs / 6) + (1 - pair.treeProx / 5);
 
         if (basket.includes(pair.first)) {
+            let measure = (1 - pair.euclid / 2) + (1 - pair.diffs / 6) + (1 - pair.treeProx / 5);
+
             candidates.push({
                 name: pair.second,
                 measure: measure
@@ -19,6 +20,8 @@ const getRecommend = function(basket) {
         }
 
         if (basket.includes(pair.second)) {
+            let measure = (1 - pair.euclid / 2) + (1 - pair.diffs / 6) + (1 - pair.treeProx / 5);
+            
             candidates.push({
                 name: pair.first,
                 measure: measure
