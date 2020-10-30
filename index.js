@@ -7,6 +7,7 @@ const port = process.env.port || 3030;
 const teaTree = require('./routes/teaTree');
 const collab = require('./routes/collaborativeFiltering');
 const content = require('./routes/contentFiltering');
+const params = require('./routes/paramsFiltering');
 
 app.use(cors({
   preflightContinue: true,
@@ -16,6 +17,7 @@ app.use(cors({
 app.use('/', teaTree);
 app.use('/', collab);
 app.use('/', content);
+app.use('/', params);
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
