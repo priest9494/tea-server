@@ -12,20 +12,20 @@ const recommend = function(basket, avoidList) {
         recommendList = recommendList.concat(getRecommend(candidates, new Array(tea), avoidList));
     });
 
-    console.log('basket: ');
-    console.log(basket);
+    //console.log('basket: ');
+    //console.log(basket);
 
     recommendList = selectSignificant(recommendList);
-    console.log('significant:');
-    console.log(recommendList);
+    //console.log('significant:');
+    //console.log(recommendList);
 
     recommendList = removeAvoided(recommendList, avoidList);
-    console.log('avoided:');
-    console.log(recommendList);
+    //console.log('avoided:');
+    //console.log(recommendList);
 
     recommendList = removeSelectedItems(recommendList, basket);
-    console.log('w/o selected:');
-    console.log(recommendList);
+    //console.log('w/o selected:');
+    //console.log(recommendList);
 
     let teaList = getFullInfo([...(new Set(recommendList))]);
 
